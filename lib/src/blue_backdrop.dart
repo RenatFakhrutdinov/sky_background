@@ -13,15 +13,17 @@ class _BlueBackdropState extends State<BlueBackdrop>
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: const Duration(seconds: 6),
+      duration: const Duration(seconds: 20),
       vsync: this,
     )..repeat(reverse: true);
   }
 
+  ///top color
   Animatable<Color> backgroundTopLeft = ColorTween(
       begin: Color.fromRGBO(1, 54, 193, 1),
       end: Color.fromRGBO(0, 110, 235, 1));
 
+  ///bottom color
   Animatable<Color> backgroundBottomRight = ColorTween(
       begin: Color.fromRGBO(58, 173, 254, 1),
       end: Color.fromRGBO(231, 240, 254, 1));

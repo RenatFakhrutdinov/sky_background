@@ -7,8 +7,13 @@ class FloatingClouds extends StatefulWidget {
 
 class _FloatingCloudsState extends State<FloatingClouds>
     with TickerProviderStateMixin {
+  ///controls far clouds
   AnimationController _controllerSlow;
+
+  ///controls far clouds
   AnimationController _controllerNormal;
+
+  ///every cloud has its own offset position
   Animation<Offset> _offsetAnimation1;
   Animation<Offset> _offsetAnimation2;
   Animation<Offset> _offsetAnimation3;
@@ -58,11 +63,17 @@ class _FloatingCloudsState extends State<FloatingClouds>
           children: <Widget>[
             SlideTransition(
               position: _offsetAnimation1,
-              child: Image.asset('assets/cloud2.png'),
+              child: Image(
+                image: AssetImage('lib/assets/cloud2.png',
+                    package: 'sky_background'),
+              ),
             ),
             SlideTransition(
               position: _offsetAnimation2,
-              child: Image.asset('assets/cloud5.png'),
+              child: Image(
+                image: AssetImage('lib/assets/cloud5.png',
+                    package: 'sky_background'),
+              ),
             ),
           ],
         ),
@@ -71,15 +82,24 @@ class _FloatingCloudsState extends State<FloatingClouds>
           children: <Widget>[
             SlideTransition(
               position: _offsetAnimation3,
-              child: Image.asset('assets/cloud3.png'),
+              child: Image(
+                image: AssetImage('lib/assets/cloud3.png',
+                    package: 'sky_background'),
+              ),
             ),
             SlideTransition(
               position: _offsetAnimation4,
-              child: Image.asset('assets/cloud4.png'),
+              child: Image(
+                image: AssetImage('lib/assets/cloud4.png',
+                    package: 'sky_background'),
+              ),
             ),
             SlideTransition(
               position: _offsetAnimation5,
-              child: Image.asset('assets/cloud1.png'),
+              child: Image(
+                image: AssetImage('lib/assets/cloud1.png',
+                    package: 'sky_background'),
+              ),
             ),
           ],
         ),
