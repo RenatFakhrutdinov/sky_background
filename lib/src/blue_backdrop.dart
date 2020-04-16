@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sky_background/src/floating_clouds.dart';
 
 class BlueBackdrop extends StatefulWidget {
   @override

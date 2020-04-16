@@ -20,6 +20,14 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: BlueBackdrop());
+    return Scaffold(
+        body: SkyBackground(
+      child: Center(
+        child: Text(
+          'Widget',
+          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        ),
+      ),
+    ));
   }
 }
