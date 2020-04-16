@@ -16,3 +16,9 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  assets:
+    - lib/assets/cloud1.png
+    - lib/assets/cloud2.png
+    - lib/assets/cloud3.png
+    - lib/assets/cloud4.png
+    - lib/assets/cloud5.png
