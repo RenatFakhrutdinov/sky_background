@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sky_background/skybackground.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,7 +20,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Text('2') //BlueBackdrop(),
-        );
+    return Scaffold(body: BlueBackdrop());
   }
 }

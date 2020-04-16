@@ -43,7 +43,7 @@ class _BlueBackdropState extends State<BlueBackdrop>
                   backgroundBottomRight
                       .evaluate(AlwaysStoppedAnimation(_controller.value))
                 ])),
-            child: FloatingClouds(),
+            //child: //FloatingClouds(),
           );
         });
   }
