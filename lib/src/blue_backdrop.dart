@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:skybackground/src/floating_clouds.dart';
 
 class BlueBackdrop extends StatefulWidget {
   @override
@@ -42,6 +43,7 @@ class _BlueBackdropState extends State<BlueBackdrop>
                   backgroundBottomRight
                       .evaluate(AlwaysStoppedAnimation(_controller.value))
                 ])),
+            child: FloatingClouds(),
           );
         });
   }
