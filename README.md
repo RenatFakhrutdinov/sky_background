@@ -10,7 +10,7 @@ The sky is beautiful! Now you can transfer a piece of the sky to your applicatio
 Just wrap your widget in SkyBackground
 
 ```
-import 'package:sky_background/skybackground.dart';
+import 'package:sky_background/sky_background.dart';
 
   Widget build(BuildContext context) {
     return Scaffold(

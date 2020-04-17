@@ -1,6 +1,6 @@
 name: sky_background
 description: The sky is beautiful! Now you can transfer a piece of the sky to your application using this library.
-version: 0.1.1
+version: 0.1.2
 homepage: https://github.com/RenatFakhrutdinov/sky_background
 
 environment:
