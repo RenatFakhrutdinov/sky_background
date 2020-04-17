@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sky_background/skybackground.dart';
+import 'package:sky_background/sky_background.dart';
 
 void main() => runApp(MyApp());
 
