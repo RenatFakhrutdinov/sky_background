@@ -1,5 +1,8 @@
 # sky_background
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Pub](https://img.shields.io/pub/v/sky_background)](https://pub.dev/packages/sky_background)
+
 The sky is beautiful! Now you can transfer a piece of the sky to your application using this library 👍
 
 ## How to use
